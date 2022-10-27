@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(31, 29, 29);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid white;
+  width: 95vw;
+  max-width: 600px;
+  min-height: 500px;
+}
+.search {
+  margin: 3rem auto 3rem auto;
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+.search input {
+  width: 80%;
+  border: none;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+.search input:focus {
+  background-color: grey;
+  color: white;
+  outline: none;
+}
+.add {
+  border: none;
+  padding: 5px 20px;
+  border-radius: 10px;
+}
+.add:hover {
+  background-color: grey;
+  color: white;
+  cursor: pointer;
+}
+.todos {
+  width: 80%;
+}
+.todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  margin-bottom: 1rem;
+  padding: 0.2rem 1rem;
+  border-radius: 10px;
+}
+.todoWork {
+  max-width: 55%;
+}
+
+.edit,
+.delete {
+  cursor: pointer;
+  margin-left: 1rem;
+  padding: 5px 15px;
+  color: white;
+  background-color: grey;
+  border: none;
+  border-radius: 10px;
+}
